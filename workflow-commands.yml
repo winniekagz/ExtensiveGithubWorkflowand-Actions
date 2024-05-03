@@ -16,3 +16,7 @@ jobs:
         run: echo "::warning title:Warning title,file=app.js,line=2::missing semi colon"
       - name: Setting an Notice with params
         run: echo "::notice title:notice title,file=app.js,line=2::missing semi colon"
+      - name: Mask a value
+        run: echo "::add-mask::test string"
+      - name: echo test string
+        rin: echo 'test string'
